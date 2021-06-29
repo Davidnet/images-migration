@@ -5,9 +5,8 @@ Image Migration is a simple project that automatizes moving tag images from one 
 Usage:
 
 ```bash
-python migrate.py --registry-src docker://gcr.io/light-sunup-244111/machai/machai --destination-src docker://gcr.io/machai-pipelines/production/machai
-```
+python migrate.py --registry-src docker://gcr.io/{project}/folder1 --destination-src docker://gcr.io/{project2}/folder2``
 
 ```bash
-usage: dry_run.py [-h] --registry-src registry_src --destination-src destination_src
+usage: migrate.py [-h] --registry-src registry_src --destination-src destination_src
 ```
